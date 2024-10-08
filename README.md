@@ -25,7 +25,7 @@ Make sure the following Python packages are installed before running the script:
 
 You can install these packages using pip:
 
-pip install rank_bm25 tabulate
+- pip install rank_bm25 tabulate
 
 ### Auxiliary Files
 
