@@ -10,9 +10,7 @@ A `Dockerfile` is provided in this branch to simplify the setup and execution of
 
 All files in this repository can be executed using:
 
-```bash
 python <name_of_file>
-```` ``` ````
 
 However, for proper usage, only the following files should be directly run:
 
