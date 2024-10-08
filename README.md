@@ -10,22 +10,22 @@ A `Dockerfile` is provided in this branch to simplify the setup and execution of
 
 All files in this repository can be executed using:
 
-```bash
 python <name_of_file>
 
 However, for proper usage, only the following files should be directly run:
 
-PubMedBERTTrain.py: This file handles the training of the PubMedBERT model.
-PubMedBERT.py: This file is for testing the model and evaluating its performance.
-The AuxClass.py file serves as an auxiliary class to support the above scripts and should not be run independently.
+- **PubMedBERTTrain.py**: This file handles the training of the PubMedBERT model.
+- **PubMedBERT.py**: This file is for testing the model and evaluating its performance.
 
-Output Information
+The **AuxClass.py** file serves as an auxiliary class to support the above scripts and should not be run independently.
 
-PubMedBERTTrain.py:
+## Output Information
+
+### PubMedBERTTrain.py
 
 Running this script will produce a folder named `results`, which contains a checkpoint for each training epoch. These checkpoints can be used to restore or continue training later.
 
-PubMedBERT.py:
+### PubMedBERT.py
 
 Running this file will generate three outputs:
 
