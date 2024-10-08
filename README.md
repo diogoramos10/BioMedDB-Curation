@@ -19,15 +19,16 @@ PubMedBERTTrain.py: This file handles the training of the PubMedBERT model.
 PubMedBERT.py: This file is for testing the model and evaluating its performance.
 The AuxClass.py file serves as an auxiliary class to support the above scripts and should not be run independently.
 
-## Output Information
+Output Information
 
 PubMedBERTTrain.py:
 
-Running this script will produce a folder named results, which contains a checkpoint for each training epoch. These checkpoints can be used to restore or continue training later.
+Running this script will produce a folder named `results`, which contains a checkpoint for each training epoch. These checkpoints can be used to restore or continue training later.
 
 PubMedBERT.py:
 
 Running this file will generate three outputs:
-A confusion matrix with an overview of performance metrics.
-A file containing each predicted class and score, along with the actual class and score.
-A metrics file that contains the detailed evaluation results of the model.
+
+1. A confusion matrix with an overview of performance metrics.
+2. A file containing each predicted class and score, along with the actual class and score.
+3. A metrics file that contains the detailed evaluation results of the model.
