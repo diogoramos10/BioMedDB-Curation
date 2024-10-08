@@ -13,7 +13,7 @@ All files in this repository can be executed using:
 ```bash
 python <name_of_file>
 
-"""bash
+bash´´´
 
 However, for proper usage, only the following files should be directly run:
 
