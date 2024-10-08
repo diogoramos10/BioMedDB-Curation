@@ -15,17 +15,17 @@ python <name_of_file>
 
 However, for proper usage, only the following files should be directly run:
 
-- **DistilBERTTrain.py**: This file handles the training of the DistilBERT model.
-- **DistilBERT.py**: This file is for testing the model and evaluating its performance.
-- The **AuxClass.py** file serves as an auxiliary class to support the above scripts and should not be run independently.
+- **`DistilBERTTrain.py`**: This file handles the training of the DistilBERT model.
+- **`DistilBERT.py`**: This file is for testing the model and evaluating its performance.
+- The **`AuxClass.py`** file serves as an auxiliary class to support the above scripts and should not be run independently.
 
 ## Output Information
 
-### DistilBERTTrain.py
+### `DistilBERTTrain.py`
 
 Running this script will produce a folder named `results`, which contains a checkpoint for each training epoch. These checkpoints can be used to restore or continue training later.
 
-### DistilBERT.py
+### `DistilBERT.py`
 
 Running this file will generate three outputs:
 
