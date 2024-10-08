@@ -1,8 +1,8 @@
 # Biomedical Document Retrieval for Database Curation - Exposome-Explorer
 
-This repository provides a deep learning approach using BERT-based models, specifically fine-tuned versions of MonoBERT, to reduce a list of documents to the most relevant ones for the **Exposome-Explorer** database. The primary goal is to automate and enhance the document retrieval process by focusing on relevancy within the Exposome domain.
+This repository provides a deep learning approach using BERT-based models to reduce a list of documents to the most relevant ones for the **Exposome-Explorer** database. The primary goal is to automate and enhance the document retrieval process by focusing on relevancy within the Exposome domain.
 
-The dataset required for this task is available in the **BM25 branch** of this repository. The dataset in combination with this deep learning model aims to improve document filtering efficiency by identifying relevant documents more accurately.
+Different models will be used, with the code for each model located in its respective branch of this repository. The dataset required for this task is available in the **BM25 branch**. The dataset in combination with this deep learning model aims to improve document filtering efficiency by identifying relevant documents more accurately.
 
 ## How to Run
 
